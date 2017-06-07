@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad12_9" orientation="landscape">
+        <adaptation id="splitview1_3"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="98n-Kk-DNl">
+                                <rect key="frame" x="162.5" y="231" width="50" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="CwJ-Nz-NNz"/>
+                                    <constraint firstAttribute="width" constant="50" id="jmU-kh-7VB"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="unL-Af-mBv">
+                                <rect key="frame" x="162.5" y="743" width="50" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Mal-MC-grN"/>
+                                    <constraint firstAttribute="width" constant="50" id="oW9-cF-chS"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SLK-7l-Pxg">
+                                <rect key="frame" x="162.5" y="487" width="50" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="cep-Zl-a4U"/>
+                                    <constraint firstAttribute="height" constant="50" id="vag-DW-BqE"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gIj-Ij-CHj">
+                                <rect key="frame" x="129.5" y="954" width="229.5" height="50"/>
+                                <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Vg4-xf-CMT"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="unL-Af-mBv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.5" id="6T1-tC-LqC"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gIj-Ij-CHj" secondAttribute="bottom" constant="20" id="8pP-XH-sNV"/>
+                            <constraint firstItem="SLK-7l-Pxg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ERr-7N-WU4"/>
+                            <constraint firstItem="98n-Kk-DNl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OUE-0y-NZp"/>
+                            <constraint firstItem="98n-Kk-DNl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.5" id="QH5-K9-gPS"/>
+                            <constraint firstItem="SLK-7l-Pxg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TGU-Ek-SNM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gIj-Ij-CHj" secondAttribute="trailing" id="keD-Ly-aTc"/>
+                            <constraint firstItem="gIj-Ij-CHj" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="305/500" constant="1" id="nPl-sy-Dl8"/>
+                            <constraint firstItem="unL-Af-mBv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vY8-bb-SCX"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-132.06521739130434" y="-88.405797101449281"/>
+        </scene>
+    </scenes>
+</document>
